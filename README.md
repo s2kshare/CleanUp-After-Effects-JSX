@@ -22,7 +22,7 @@ The purpose is to guarantee no virus or malicious attack is implemented into any
 
 # Problem & Fixes (Troubleshooting)
 
-P: "The system cannot find the path specified."
+P: "The system cannot find the path specified."\n
 F: Since the batch file is set to copy to the directories listed above, there are two possible reasons for this
 	
   - The After Effects version installed is not yet implemented into the batch script
