@@ -14,13 +14,13 @@ Below is an example of usability:
 I've kept the files open, granting the ability to read the code for both the bat and jsx file
 The purpose is to guarantee no virus or malicious attack is implemented into any file
 
-The batch will ask for administer permission to copy from the folder directory to the following:
+## The batch will ask for administer permission to copy from the folder directory to the following:
   - %ProgramFiles%\Adobe\Adobe After Effects 2020\Support Files\Scripts
   - %ProgramFiles%\Adobe\Adobe After Effects 2021\Support Files\Scripts
   - %ProgramFiles%\Adobe\Adobe After Effects 2022\Support Files\Scripts
   - %ProgramFiles%\Adobe\Adobe After Effects 2023\Support Files\Scripts
 
-Problem & Fixes (Troubleshooting)
+# Problem & Fixes (Troubleshooting)
 
 P: "The system cannot find the path specified."
 F: Since the batch file is set to copy to the directories listed above, there are two possible reasons for this
