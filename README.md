@@ -23,7 +23,6 @@ The purpose is to guarantee no virus or malicious attack is implemented into any
 # Problem & Fixes (Troubleshooting)
 
 P: "The system cannot find the path specified."
-
 F: Since the batch file is set to copy to the directories listed above, there are two possible reasons for this
 	
   - The After Effects version installed is not yet implemented into the batch script
@@ -38,5 +37,4 @@ F: You can copy and paste the script into the script folder inside of your After
   - Adobe\Adobe After Effects [YEAR]\Support Files\Scripts
 
 P: The auto-install.bat isn't working
-
 F: The reason for this is due to the auto-install.bat not being inside of the same directory as the CleanUp!.jsx file
