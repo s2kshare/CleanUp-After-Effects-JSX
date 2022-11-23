@@ -38,3 +38,13 @@ F: You can copy and paste the script into the script folder inside of your After
 
 * P: The auto-install.bat isn't working  
 F: The reason for this is due to the auto-install.bat not being inside of the same directory as the CleanUp!.jsx file
+
+___
+
+If you have any questions or want to get in contact with me, below are my credentials
+
+Discord
+> s2k#9491
+
+Gmail  
+> s2kdevelopshare@gmail.com
