@@ -14,26 +14,26 @@ Below is an example of usability:
 I've kept the files open, granting the ability to read the code for both the bat and jsx file
 The purpose is to guarantee no virus or malicious attack is implemented into any file
 
-The batch will ask for administer permission to copy from the folder directory to the following
-	- %ProgramFiles%\Adobe\Adobe After Effects 2020\Support Files\Scripts
-	- %ProgramFiles%\Adobe\Adobe After Effects 2021\Support Files\Scripts
-	- %ProgramFiles%\Adobe\Adobe After Effects 2022\Support Files\Scripts
-	- %ProgramFiles%\Adobe\Adobe After Effects 2023\Support Files\Scripts
+The batch will ask for administer permission to copy from the folder directory to the following:
+  - %ProgramFiles%\Adobe\Adobe After Effects 2020\Support Files\Scripts
+  - %ProgramFiles%\Adobe\Adobe After Effects 2021\Support Files\Scripts
+  - %ProgramFiles%\Adobe\Adobe After Effects 2022\Support Files\Scripts
+  - %ProgramFiles%\Adobe\Adobe After Effects 2023\Support Files\Scripts
 
 Problem & Fixes (Troubleshooting)
 
 P: "The system cannot find the path specified."
 F: Since the batch file is set to copy to the directories listed above, there are two possible reasons for this
 	
-	- The After Effects version installed is not yet implemented into the batch script
-		- Can simply be fixed by opening the batch and changing one directory to your supported year
+  - The After Effects version installed is not yet implemented into the batch script
+    - Can simply be fixed by opening the batch and changing one directory to your supported year
 	
-	- The directory of your After Effects is not installed into your Program Files location, rather somewhere else
+  - The directory of your After Effects is not installed into your Program Files location, rather somewhere else
 
 P: How do I install it without the use of auto-install.bat
 F: You can copy and paste the script into the script folder inside of your After Effects Directory.
 	
-	- Adobe\Adobe After Effects [YEAR]\Support Files\Scripts
+  - Adobe\Adobe After Effects [YEAR]\Support Files\Scripts
 
 P: The auto-install.bat isn't working
 F: The reason for this is due to the auto-install.bat not being inside of the same directory as the CleanUp!.jsx file
